@@ -28,7 +28,7 @@ let is_playing = false     // *************need this flag to know the music is p
 // ***********************fetcing data***********************
 let _music_info = document.querySelector('.musicInfo')
 async function fetchData() {
-    let x = await fetch('https://mocki.io/v1/dcf78377-dc48-478f-8541-ece6dd441b60')
+    let x = await fetch('https://mocki.io/v1/a546d602-0963-4565-a36e-04317e2d2b87')
     let y = await x.json()
 
 
